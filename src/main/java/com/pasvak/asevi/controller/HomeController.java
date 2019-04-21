@@ -28,4 +28,12 @@ public class HomeController {
     public String pricingTables() {
         return "pricing-tables";
     }
+	   @RequestMapping("/tables")
+	    public String Tables() {
+	        return "tables";
+	    }
+	   @RequestMapping("/recordForm")
+	    public String KayitFormu() {
+	        return "recordForm";
+	    }
 }
