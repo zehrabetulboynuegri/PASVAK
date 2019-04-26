@@ -36,4 +36,9 @@ public class HomeController {
 	    public String KayitFormu() {
 	        return "recordForm";
 	    }
+	
+	   @RequestMapping("/leaflet_1")
+	    public String leaflet() {
+	        return "leaflet_1";
+	    }
 }

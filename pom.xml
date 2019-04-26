@@ -106,12 +106,78 @@
 			<artifactId>webjars-locator</artifactId>
 			<version>0.30</version>
 		</dependency>
+		<dependency>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>icheck</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+		<!-- tables.html -->
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net</artifactId>
+			<version>1.10.11</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net-buttons-bs</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net-fixedheader</artifactId>
+			<version>3.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net-fixedheader-bs</artifactId>
+			<version>3.1.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.webjars.bower/datatables.net-keytable-bs -->
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net-keytable-bs</artifactId>
+			<version>2.1.2</version>
+		</dependency>
 
-<dependency>
-    <groupId>org.webjars.bower</groupId>
-    <artifactId>github-com-jaxkodex-jQuery-Smart-Wizard</artifactId>
-    <version>3.3.1</version>
-</dependency>
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net-responsive-bs</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net-responsive</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.webjars.bower/datatables.net-scroller-bs -->
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net-scroller-bs</artifactId>
+			<version>1.4.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.webjars.npm/jszip -->
+		<dependency>
+			<groupId>org.webjars.npm</groupId>
+			<artifactId>jszip</artifactId>
+			<version>2.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>pdfmake</artifactId>
+			<version>0.1.20</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net-scroller-bs</artifactId>
+			<version>1.4.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>datatables.net-bs</artifactId>
+			<version>1.10.11</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
