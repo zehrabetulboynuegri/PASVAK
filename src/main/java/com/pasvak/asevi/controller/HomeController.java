@@ -37,8 +37,4 @@ public class HomeController {
 	        return "recordForm";
 	    }
 	
-	   @RequestMapping("/leaflet_1")
-	    public String leaflet() {
-	        return "leaflet_1";
-	    }
 }
