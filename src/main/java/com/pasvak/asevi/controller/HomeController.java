@@ -36,4 +36,8 @@ public class HomeController {
 	    public String KayitFormu() {
 	        return "recordForm";
 	    }
+	   @RequestMapping("/login")
+	    public String Login() {
+	        return "login";
+	    }
 }
