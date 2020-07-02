@@ -10,9 +10,6 @@ public class VehicleRoutingController {
 	public String AdresEkle() {
 		return "adres-ekle";
 	}
-	/*
-	 * @PostMapping("/adres-ekle") public String AdresAra() { return
-	 * "koordinat-sonuc"; }
-	 */
+	
 	
 }

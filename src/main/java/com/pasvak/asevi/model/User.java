@@ -14,7 +14,7 @@ import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
-@Table(name = "usertbl")
+@Table(name = "kullanici")
 public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

@@ -9,33 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Controller
 public class HomeController {
-/*
-    @RequestMapping("/")
-    public String home(){
-        return "Hello World!";
-    }
-  */
+
 	   @RequestMapping("/")
 	    public String index() {
 	        return "index";
 	    }
-	   @RequestMapping("/plain-page")
-    public String plainPage() {
-        return "plain-page";
-    }
-
-	   @RequestMapping("/pricing-tables")
-    public String pricingTables() {
-        return "pricing-tables";
-    }
-	   @RequestMapping("/tables")
-	    public String Tables() {
-	        return "tables";
-	    }
-	   @RequestMapping("/recordForm")
-	    public String KayitFormu() {
-	        return "recordForm";
-	    }
+	 
+	
 	   @RequestMapping("/login")
 	    public String Login() {
 	        return "login";
